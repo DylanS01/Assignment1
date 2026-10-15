@@ -1,12 +1,12 @@
-body{
+body {
     background-color: #172d74;
     color: #FFFFFF;
     font-size: 24px;
-    font-family:monospace;
+    font-family: monospace;
 }
 
-table{
-    display:flex;
+table {
+    display: flex;
     background-color: #0e0a41;
     color: #FFFFFF;
     border-radius: 6px;
@@ -14,8 +14,30 @@ table{
     border: 1px solid #000;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-} /*Got it off of W3 Schools*/
+td {
+    background-color: #ae1616;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #050537;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/*Got it off of W3 Schools*/
+
+tr.d0 td {
+  background-color: #CC9999;
+  color: rgb(61, 229, 10);
+}
+tr.d1 td {
+  background-color: #9999CC;
+  color: rgb(30, 116, 221);
+}
+
+footer {
+    background-color: #3281af;
+    color: #FFFFFF;
+}
