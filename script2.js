@@ -1,0 +1,10 @@
+console.log("This is javascript page 2");
+const shoppingList = ["Flour", "Water", "Milk", "Eggs", "Cream Cheese"];
+console.log(shoppingList);
+shoppingList[2] = "Can of Peas";
+console.log(shoppingList);
+shoppingList.shift();
+shoppingList.shift();
+shoppingList.reverse();
+console.log(shoppingList);
+console.log(shoppingList.length);
